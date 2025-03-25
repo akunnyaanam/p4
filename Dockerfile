@@ -7,7 +7,7 @@ RUN apt-get update && \
     docker-php-ext-install pdo pdo_mysql gd mysqli  
 
 RUN pecl install redis \
-    && docker-php-ext-enable redis pdo pdo_mysql gd  
+    && docker-php-ext-enable redis pdo pdo_mysql gd ˝ 
 
 EXPOSE 80
 
